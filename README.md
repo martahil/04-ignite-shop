@@ -38,3 +38,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+
+
+## Technologies Used
+- <edit here>
+
+
+## Figma Design
+The design for the Ignite Shop website was based on the following Figma file:
+
+https://www.figma.com/design/uyCpMILb4d21OEQQbPOQCB/Ignite-Shop-%E2%80%A2-Projeto-React--Copy-?node-id=2-1297&p=f&t=QrLVI291Ku4icUua-0
