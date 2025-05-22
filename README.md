@@ -43,6 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 
 ## Technologies Used
 - Stitches
+- keen-slider (carousel)
 
 
 ## Figma Design
