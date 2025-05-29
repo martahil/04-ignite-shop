@@ -3,7 +3,6 @@ import { ImageContainer, ProductContainer, ProductDetails } from '../../styles/p
 import { stripe } from '../../lib/stripe'
 import Stripe from 'stripe'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
 
 interface ProductProps {
   product: {
@@ -46,6 +45,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps<any, { id: string }> = async ({ params }) => {
+  // if (!params?.id) { /* This check prevents errors by handling the case where 'params' might be undefined. */
+  //   return {
+  //     notFound: true,
+  //   }
+  // }
+
   const productId = params.id
 
   const product = await stripe.products.retrieve(productId, {

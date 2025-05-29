@@ -31,6 +31,7 @@ export default function Home({ products }: HomeProps) {
           <Product /*Do not wrap "Product" with a "Link", it would cause errors (in the home.ts file, "a" was replaced by "Link")*/
             key={product.id}
             href={`/product/${product.id}`}
+            prefetch={false}
             className="keen-slider__slide"
           >
             <Image src={product.imageUrl} width={520} height={480} alt='' />
