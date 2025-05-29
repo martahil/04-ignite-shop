@@ -45,6 +45,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/b
 - Stitches
 - keen-slider (carousel)
 - Stripe
+- axios
 
 
 ## Figma Design
