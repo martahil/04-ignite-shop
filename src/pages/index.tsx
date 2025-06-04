@@ -1,11 +1,11 @@
+import { GetStaticProps } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
+import Stripe from 'stripe'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 import { HomeContainer, Product } from '../styles/pages/home'
 import { stripe } from '../lib/stripe'
-import { GetStaticProps } from 'next'
-import Stripe from 'stripe'
-import Head from 'next/head'
 
 interface HomeProps {
   products: {
@@ -36,7 +36,7 @@ export default function Home({ products }: HomeProps) {
               key={product.id}
               href={`/product/${product.id}`}
               prefetch={false}
-              className="keen-slider__slide"
+              className='keen-slider__slide'
             >
               <Image src={product.imageUrl} width={520} height={480} alt='' />
 
